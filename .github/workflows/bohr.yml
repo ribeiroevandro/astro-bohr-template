@@ -1,5 +1,5 @@
 name: bohr.io deploy
-on: 
+on:
   push:
   repository_dispatch:
     types: [bohr-dispatch]
@@ -10,4 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8.0.0
       - uses: bohr-io/action@main
+
