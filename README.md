@@ -2,6 +2,9 @@
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
+![astro-preview](https://user-images.githubusercontent.com/943553/228666708-b3205e53-5d34-4e31-8682-c42ad0ee0d02.png)
+
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
