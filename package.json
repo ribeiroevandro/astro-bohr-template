@@ -2,6 +2,19 @@
   "name": "astro-bohr-template",
   "type": "module",
   "version": "0.0.1",
+  "author": "Evandro Ribeiro <ribeiroevandro@live.com> (https://github.com/ribeiroevandro)",
+  "description": "A basic Astro template.",
+  "keywords": [
+    "astro",
+    "template",
+    "bohr-io"
+  ],
+  "repository": "https://github.com/ribeiroevandro/astro-bohr-template",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ribeiroevandro/astro-bohr-template/issues"
+  },
+  "homepage": "https://github.com/ribeiroevandro/astro-bohr-template#readme",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
