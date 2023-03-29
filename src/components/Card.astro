@@ -9,7 +9,7 @@ const { href, title, body } = Astro.props;
 ---
 
 <li class="link-card">
-  <a href={href}>
+  <a href={href} target="_blank" rel="noopener noreferrer">
     <h2>
       {title}
       <span>&rarr;</span>
@@ -23,7 +23,7 @@ const { href, title, body } = Astro.props;
   .link-card {
     list-style: none;
     display: flex;
-  	padding: 0.25rem;
+    padding: 0.25rem;
     background-color: white;
     background-image: none;
     background-size: 400%;
